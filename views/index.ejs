@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Bhatkuli</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-6  ">
+        <div class="row flex-row flex-column text-center ">
+          <h1 class="mt-4">नगर पंचायत भातकुली</h1>
+          <h1>जि. अमरावती</h1>
+          <div class="row bg-dark flex-column text-white">
+            <h5>ICT Based Technology Implementation Serve Form
+            </h5>
+          </div>
+        </div>
+        <form class="mt-4" action="/send" method="post">
+          <div class="form-group row">
+            <label for="staticEmail" class="col-sm-3 col-form-label"><strong>हॉऊस आयडी :</strong></label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" name="houseId" required>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassword" class="col-sm-2 col-form-label"><strong>नांव :</strong></label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" name="name" required>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="staticEmail" class="col-sm-3 col-form-label"><strong>मोबाईल नं.:</strong></label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" name="mobileNo" required>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="staticEmail" class="col-sm-3 col-form-label"><strong>पत्ता :</strong></label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" name="address" required>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="staticEmail" class="col-sm-3 col-form-label"><strong>प्रभाग नंबर :</strong></label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" name="prabhagNO" required>
+            </div>
+            <label for="staticEmail" class="col-sm-3 col-form-label"><strong>वार्ड नं. :</strong></label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" name="wardNo" required>
+            </div>
+          </div>
+          <p><strong>ता. भातकुली, जि. अमरावती - ४४४६०२.</strong></p>
+          <div class="form-group row">
+            <label for="staticEmail" class="col-sm-3 col-form-label"><strong>मालमत्ता प्रकार :</strong></label>
+            <div class="col-sm-6">
+              <div class="row mt-2">
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="customRadioInline1" name="malmata" class="custom-control-input" value="rahivashi">
+                  <label class="custom-control-label" for="customRadioInline1"><strong>रहीवाशी</strong></label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="customRadioInline2" name="malmata" class="custom-control-input" value="vyvsayik">
+                  <label class="custom-control-label" for="customRadioInline2"><strong>व्यवसायीक</strong></label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group row ml-md-4">
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline3" name="ghar" class="custom-control-input" value="swatcheGhar">
+              <label class="custom-control-label" for="customRadioInline3"><strong>स्वतःचे घर</strong></label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline4" name="ghar" class="custom-control-input" value="Bhadekaru">
+              <label class="custom-control-label" for="customRadioInline4"><strong>भाडेकरु</strong></label>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="staticEmail" class="col-sm-4 col-form-label"><strong>शौचालय चे प्रकार :</strong></label>
+            <div class="col-sm-8">
+              <div class="row mt-2">
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="customRadioInline5" name="sowchlaychePrkar" class="custom-control-input" value="sarvajanik">
+                  <label class="custom-control-label" for="customRadioInline5"><strong>सार्वजनिक</strong></label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="customRadioInline6" name="sowchlaychePrkar" class="custom-control-input" value="swamalkiche">
+                  <label class="custom-control-label" for="customRadioInline6"><strong>स्वमालकीचे</strong></label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="customRadioInline7" name="sowchlaychePrkar" class="custom-control-input" value="IHHL" >
+                  <label class="custom-control-label" for="customRadioInline7"><strong>IHHL</strong></label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassword" class="col-sm-4 col-form-label"><strong>सर्व्हे करण्याऱ्याचे नांव
+                :</strong></label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control" name="surveyName" required>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="staticEmail" class="col-sm-3 col-form-label"><strong>मोबाईल नं.:</strong></label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" name="mobileNo1" required>
+            </div>
+          </div>
+          <input type="submit" class="btn btn-success" />
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
